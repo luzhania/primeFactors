@@ -2,6 +2,7 @@ body{
     background-color: #f6f6f6;
     text-align: justify;
     margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #index{
     background-color: #000000;
@@ -9,6 +10,9 @@ body{
     padding: 3px;
     align-items: center;
     display: flex;
+}
+.item-index{
+    margin: 10px;
 }
 #img-logo{
     padding-left: 30px;
@@ -65,4 +69,19 @@ body{
     padding-left: 12px;
     padding-right: 12px;
     text-align: justify;
+}
+.slide{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 380px;
+    height:310px;
+    margin: 1%;
+}
+.container-slides{
+    display: flex;
+    justify-content: center;
+}
+.titular{
+    padding-left: 10px;
+    padding-right: 10px;
 }
